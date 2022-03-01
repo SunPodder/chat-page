@@ -1,0 +1,19 @@
+{
+  "name": "Chat Page",
+  "description": "Chat with people who are on the same website as you.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Chat Page",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ]
+}

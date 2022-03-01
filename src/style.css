@@ -1,0 +1,20 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+form{
+  position:fixed;
+  bottom:0;
+  width:100vw;
+}
+textarea{
+  width:80vw;
+}
+button{
+  padding:0 3px;
+}
+svg{
+  width:2em;
+  height:2em;
+}
